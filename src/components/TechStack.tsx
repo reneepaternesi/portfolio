@@ -15,9 +15,14 @@ const categories = [
     skills: ["Tailwind CSS", "Micro-Frontends", "Design Systems", "Nx Monorepo", "Storybook", "Figma Tokens"]
   },
   {
-    title: "State & Testing",
+    title: "State Management",
     icon: <Database className="w-5 h-5 text-emerald-400" />,
-    skills: ["XState", "Zustand", "Pinia", "Jest", "Vitest", "Playwright"]
+    skills: ["Redux", "React Context", "Zustand", "XState", "Pinia", "Vuex"]
+  },
+  {
+    title: "Testing & QA",
+    icon: <Database className="w-5 h-5 text-emerald-400" />,
+    skills: ["Jest", "React Testing Lib", "Enzyme", "Vitest", "Playwright", "Cypress"]
   },
   {
     title: "AI-Augmented Workflows",
