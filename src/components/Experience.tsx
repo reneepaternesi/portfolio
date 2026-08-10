@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
 const jobs = [
   {
@@ -46,7 +47,42 @@ const jobs = [
   }
 ];
 
+const olderJobs = [
+  {
+    company: "Belatrix Software",
+    role: "Java Developer (Front-end focus)",
+    period: "Jan 2010 - Feb 2014",
+    points: ["Led front-end development initiatives for various client web projects."]
+  },
+  {
+    company: "Clifton Myers Enterprises",
+    role: "Systems Programmer Analyst",
+    period: "Mar 2009 - Dec 2009",
+    points: ["Managed database conversions and software development tasks."]
+  },
+  {
+    company: "Proyectos Informáticos Suris",
+    role: "Systems Programmer Analyst",
+    period: "Sep 2006 - Feb 2009",
+    points: ["Implemented META4 Human Resources System as part of a Software Factory."]
+  },
+  {
+    company: "IMPSA",
+    role: "Technical Assistant",
+    period: "Sep 2005 - Sep 2006",
+    points: ["Executed database migrations and provided technical support."]
+  },
+  {
+    company: "Inden S.A.",
+    role: "Jr Information System Analyst",
+    period: "Mar 2005 - Sep 2005",
+    points: ["Developed computer security plans, database migrations, and procedure manuals."]
+  }
+];
+
 export default function Experience() {
+  const [showOlder, setShowOlder] = useState(false);
+
   return (
     <section className="py-24" id="experience">
       <motion.div
@@ -56,7 +92,7 @@ export default function Experience() {
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-3xl font-bold text-gray-100 mb-12 flex items-center gap-4">
-          <span className="text-emerald-400 font-mono text-xl">02.</span> Where I've Worked
+          <span className="text-emerald-400 font-mono text-xl">02.</span> Where I&apos;ve Worked
           <div className="h-[1px] bg-gray-800 flex-1 ml-4"></div>
         </h2>
 
@@ -79,6 +115,44 @@ export default function Experience() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 text-center">
+          <button 
+            onClick={() => setShowOlder(!showOlder)}
+            className="px-6 py-3 border border-emerald-400/50 text-emerald-400 hover:bg-emerald-400/10 rounded-lg transition-colors font-mono text-sm"
+          >
+            {showOlder ? "Hide previous experience" : "Show previous experience (2005 - 2014)"}
+          </button>
+        </div>
+
+        <AnimatePresence>
+          {showOlder && (
+            <motion.div 
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              className="space-y-12 mt-12 overflow-hidden"
+            >
+              {olderJobs.map((job, idx) => (
+                <div key={idx} className="relative pl-8 border-l border-gray-800/50">
+                  <div className="absolute w-2 h-2 bg-gray-600 rounded-full -left-[4.5px] top-2.5"></div>
+                  <h3 className="text-lg font-bold text-gray-300">
+                    {job.role} <span className="text-gray-500">@ {job.company}</span>
+                  </h3>
+                  <p className="text-xs font-mono text-gray-600 mb-3 mt-1">{job.period}</p>
+                  <ul className="space-y-2">
+                    {job.points.map((point, i) => (
+                      <li key={i} className="text-gray-500 flex items-start text-sm">
+                        <span className="text-gray-600 mr-2">▹</span>
+                        <span className="leading-relaxed">{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
     </section>
   );

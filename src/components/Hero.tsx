@@ -26,11 +26,11 @@ export default function Hero() {
           Renée Paternesi.
         </h1>
         <h1 className="text-5xl md:text-7xl font-bold text-gray-400 tracking-tight mb-8">
-          I build high-performance web architectures.
+          I craft pixel-perfect web experiences.
         </h1>
         <p className="max-w-2xl text-lg text-gray-400 leading-relaxed mb-10">
-          I'm a Senior Frontend Engineer and AI-Augmented Developer specializing in React, Next.js, and Design Systems. 
-          I leverage artificial intelligence workflows to automate testing, eliminate visual regressions, and accelerate engineering velocity.
+          I&apos;m a Senior Frontend Engineer with 13+ years of remote experience across product and service companies of all sizes. 
+          Specializing in React, Next.js, and Design Systems, I combine UI craftsmanship with AI-augmented workflows to accelerate engineering velocity and deliver flawless user interfaces.
         </p>
 
         <div className="flex items-center gap-6">
