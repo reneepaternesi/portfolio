@@ -7,12 +7,12 @@ const categories = [
   {
     title: "Languages & Frameworks",
     icon: <Code2 className="w-5 h-5 text-emerald-400" />,
-    skills: ["TypeScript", "JavaScript (ES6+)", "React 19", "Next.js 16", "Vue.js 3", "HTML5 / CSS3"]
+    skills: ["TypeScript", "JavaScript", "React / Next.js", "Vue.js / Nuxt", "Angular / Angular.js", "HTML5 / CSS3"]
   },
   {
     title: "Architecture & Styling",
     icon: <Layout className="w-5 h-5 text-emerald-400" />,
-    skills: ["Tailwind CSS", "Micro-Frontends", "Design Systems", "Nx Monorepo", "Storybook", "Figma Tokens"]
+    skills: ["Tailwind CSS", "Angular Material", "Micro-Frontends", "Nx Monorepo", "Storybook", "Figma Tokens"]
   },
   {
     title: "State Management",
@@ -27,7 +27,7 @@ const categories = [
   {
     title: "AI-Augmented Workflows",
     icon: <Bot className="w-5 h-5 text-emerald-400" />,
-    skills: ["Claude Code", "DeepMind Agents", "Automated Audits", "Figma-to-Code Generation"]
+    skills: ["Google Gemini", "GitHub Copilot", "Prompt Engineering", "AI-Assisted Development"]
   }
 ];
 
