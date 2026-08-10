@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Renée Paternesi | Senior Frontend Engineer Portfolio
 
-## Getting Started
+> A high-performance, dark-mode personal portfolio showcasing architectural expertise, AI-augmented engineering workflows, and UI craftsmanship.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio was built leveraging the cutting edge of the modern web ecosystem to ensure maximal performance, type safety, and aesthetic fluidity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework:** Next.js 16 (App Router)
+- **Core Library:** React 19
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Language:** Strict TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Architecture & Aesthetics
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The design philosophy of this portfolio is centered around **"Staff-Level Aesthetics"**:
+- **Glassmorphism & Dark Mode:** Deep grays (`gray-950`) accented with vibrant emerald greens to create a premium, developer-focused aesthetic.
+- **Fluid Micro-interactions:** Every scroll and hover state is meticulously orchestrated using `framer-motion` to feel buttery smooth.
+- **Component Modularity:** Strict separation of concerns (Hero, Experience, Showcases, TechStack) ensuring maintainability and scalability.
 
-## Learn More
+## 🛠️ Local Development
 
-To learn more about Next.js, take a look at the following resources:
+To run this portfolio locally on your machine:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/reneepaternesi/portfolio.git
+   cd portfolio
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📈 Deployment
+
+This project is optimized for deployment on Vercel. 
+The static generation and Next.js compiler optimizations ensure that it achieves perfect Core Web Vitals out of the box.
+
+---
+*Crafted with precision by Renée Paternesi.*
