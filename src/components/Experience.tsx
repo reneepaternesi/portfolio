@@ -5,32 +5,43 @@ import { motion } from "framer-motion";
 const jobs = [
   {
     company: "Halo Media",
-    role: "Senior Frontend Engineer & Design System Lead",
-    period: "2023 - Present",
+    role: "Frontend Engineer (Design Systems & UI)",
+    period: "Jan 2024 - Present",
     points: [
-      "Architected a scalable internal React component library, accelerating UI delivery by 40%.",
-      "Led the transition from legacy monolithic systems to modular Micro-Frontends.",
-      "Implemented comprehensive automated visual regression testing workflows.",
-      "Championed the integration of AI-assisted tools (Claude, DeepMind) for code audits and documentation."
-    ]
-  },
-  {
-    company: "Rappi",
-    role: "Senior Frontend Engineer",
-    period: "2019 - 2023",
-    points: [
-      "Optimized Core Web Vitals for high-traffic landing pages serving millions of active users.",
-      "Developed interactive internal dashboards using Next.js and Tailwind CSS.",
-      "Mentored junior engineers and led strict, security-first code review processes."
+      "Developed a Next.js-based employee benefits portal serving as the primary frontend across multiple user journeys.",
+      "Led end-to-end typography migration and mobile-first responsiveness initiatives across 10+ core UI components.",
+      "Contributed to an internal Design System monorepo (Nx), managing versioning and publishing pipelines.",
+      "Pioneered AI-augmented development practices using agentic tools (Claude/DeepMind) for automated code audits and large-scale refactoring."
     ]
   },
   {
     company: "CoderHouse",
-    role: "Frontend Engineer / Tech Lead",
-    period: "2016 - 2019",
+    role: "Sr Frontend Developer",
+    period: "Feb 2022 - Oct 2023",
     points: [
-      "Built and maintained core educational platform interfaces using Vue.js.",
-      "Designed robust token pipelines connecting Figma directly to our styling architecture."
+      "Led the development of a Vue.js component library designed to be shared across different micro-frontends.",
+      "Established shared UI standards for multiple product squads and implemented responsive UX designs.",
+      "Tested and maintained critical web page functionality across a major platform migration project."
+    ]
+  },
+  {
+    company: "Rappi",
+    role: "Sr Frontend Developer",
+    period: "Jul 2019 - Feb 2022",
+    points: [
+      "Developed a React component library to be shared between different web squads, supporting micro-frontend architecture.",
+      "Implemented and tested critical web page functionality related to restaurants, payments, and checkout.",
+      "Mentored junior engineers and ensured pixel-perfect, responsive UI deliverables."
+    ]
+  },
+  {
+    company: "AG2 Technology LLC",
+    role: "Sr Frontend Developer",
+    period: "Feb 2015 - Jul 2019",
+    points: [
+      "Implemented and tested a complex module integrated within the client web page to configure Print on Demand products.",
+      "Maintained legacy architectures using Angular.js, HTML, CSS3, and jQuery.",
+      "Collaborated closely with backend engineers to consume RESTful APIs for robust e-commerce configurations."
     ]
   }
 ];
