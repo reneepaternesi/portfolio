@@ -27,7 +27,7 @@ const categories = [
   {
     title: "AI-Augmented Workflows",
     icon: <Bot className="w-5 h-5 text-emerald-400" />,
-    skills: ["Google Gemini", "GitHub Copilot", "Prompt Engineering", "AI-Assisted Development"]
+    skills: ["Google DeepMind Antigravity", "GitHub Copilot", "Agentic Code Review", "AI-Assisted Development"]
   }
 ];
 
