@@ -29,8 +29,9 @@ export default function Hero() {
           I craft pixel-perfect web experiences.
         </h1>
         <p className="max-w-2xl text-lg text-gray-400 leading-relaxed mb-10">
-          I&apos;m a Senior Frontend Engineer with 13+ years of remote experience across product and service companies of all sizes. 
-          Specializing in React, Next.js, and Design Systems, I combine UI craftsmanship with AI-augmented workflows to accelerate engineering velocity and deliver flawless user interfaces.
+          I&apos;m a Senior Frontend & Design Engineer with 13+ years of remote experience across product and service companies of all sizes. 
+          Specializing in React, Next.js, and Design Systems, I combine UI craftsmanship with AI-augmented workflows to accelerate engineering velocity and deliver flawless user interfaces. 
+          I thrive in fast-paced environments where I can take extreme ownership and just get things done, from early Figma explorations to polished production code.
         </p>
 
         <div className="flex items-center gap-6">

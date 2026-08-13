@@ -46,12 +46,14 @@ export default function Showcases() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {showcases.map((project, idx) => (
-            <a 
+            <motion.a 
               key={idx} 
               href={project.url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="group block p-6 bg-gray-900/50 border border-gray-800 rounded-xl hover:bg-gray-800/50 hover:border-gray-700 transition-all duration-300"
+              className="group block p-6 bg-gray-900/50 border border-gray-800 rounded-xl hover:bg-gray-800/50 hover:border-gray-700 transition-colors duration-300"
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 400, damping: 25 }}
             >
               <div className="flex justify-between items-start mb-6">
                 <FolderGit2 className="w-10 h-10 text-emerald-400" />
@@ -70,7 +72,7 @@ export default function Showcases() {
                   </li>
                 ))}
               </ul>
-            </a>
+            </motion.a>
           ))}
         </div>
       </motion.div>

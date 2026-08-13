@@ -12,7 +12,7 @@ const categories = [
   {
     title: "Architecture & Styling",
     icon: <Layout className="w-5 h-5 text-emerald-400" />,
-    skills: ["Tailwind CSS", "Angular Material", "Micro-Frontends", "Nx Monorepo", "Storybook", "Figma Tokens"]
+    skills: ["Tailwind CSS", "Angular Material", "Micro-Frontends", "Nx Monorepo", "Storybook", "Figma (Auto-layout, Tokens)"]
   },
   {
     title: "State Management",
