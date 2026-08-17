@@ -5,6 +5,12 @@ import { FolderGit2, ExternalLink } from "lucide-react";
 
 const showcases = [
   {
+    title: "AI Job Triage Dashboard (RemoteUS Matcher)",
+    description: "An AI-augmented dashboard built with Next.js, Prisma, and Supabase. Evaluates remote job postings using the Gemini LLM for precision matching.",
+    tech: ["Next.js", "Prisma", "Supabase", "Gemini API"],
+    url: "https://github.com/reneepaternesi/remote-us-matcher"
+  },
+  {
     title: "React 19 Enterprise Architecture",
     description: "A cutting-edge React architecture demonstrating Next.js 16, React 19, Tailwind v4, and state orchestration using XState and Zustand.",
     tech: ["Next.js 16", "React 19", "XState", "Tailwind v4"],
