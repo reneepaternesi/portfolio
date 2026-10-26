@@ -34,10 +34,13 @@ export default function Hero() {
           I thrive in fast-paced environments where I can take extreme ownership and just get things done, from early Figma explorations to polished production code.
         </p>
 
-        <div className="flex items-center gap-6">
+        <div className="flex flex-wrap items-center gap-4 md:gap-6">
           <a href="mailto:reneepaternesi@gmail.com" className="group flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-900 font-semibold rounded-lg hover:bg-white transition-colors">
             Get in touch
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </a>
+          <a href="/cv/Renee_Paternesi_Resume_Enterprise.pdf" target="_blank" rel="noopener noreferrer" className="px-5 py-3 border border-gray-700 hover:border-gray-500 text-gray-300 hover:text-white font-medium rounded-lg transition-colors">
+            Resume
           </a>
           <a href="https://github.com/reneepaternesi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <GithubIcon />
